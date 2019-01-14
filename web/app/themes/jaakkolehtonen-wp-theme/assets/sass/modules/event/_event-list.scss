@@ -37,7 +37,7 @@
     }
 
     &__load-more {
-        @extend %tab;
+        @include tab();
         
         display: block;
         color: $color__white;

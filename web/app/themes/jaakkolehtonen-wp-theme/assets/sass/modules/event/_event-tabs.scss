@@ -1,5 +1,5 @@
 .event-tabs {
-    @extend %box;
+    @include box;
 
     &__list {
         position: sticky;
@@ -22,7 +22,7 @@
     }
 
     &__link {
-        @extend %tab;
+        @include tab;
         
         color: lighten($color__text-main, 25%);
         background: linear-gradient(darken($color__white, 5%), darken($color__white, 10%));

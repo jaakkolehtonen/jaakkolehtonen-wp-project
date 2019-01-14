@@ -1,5 +1,5 @@
 .event {
-    @extend %box;
+    @include box;
 
     padding: 1.5em;
 
