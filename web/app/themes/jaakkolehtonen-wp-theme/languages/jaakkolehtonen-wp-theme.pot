@@ -13,148 +13,148 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: functions.php:103, functions.php:127, models/page-events.php:3
+#: functions.php:74, functions.php:98, models/page-events.php:3
 msgid "Events"
 msgstr ""
 
-#: functions.php:104
+#: functions.php:75
 msgid "Event"
 msgstr ""
 
-#: functions.php:105
+#: functions.php:76
 msgid "All Events"
 msgstr ""
 
-#: functions.php:106
+#: functions.php:77
 msgid "Event Archives"
 msgstr ""
 
-#: functions.php:107
+#: functions.php:78
 msgid "Event Attributes"
 msgstr ""
 
-#: functions.php:108
+#: functions.php:79
 msgid "Insert into Event"
 msgstr ""
 
-#: functions.php:109
+#: functions.php:80
 msgid "Uploaded to this Event"
 msgstr ""
 
-#: functions.php:110
+#: functions.php:81
 msgctxt "event"
 msgid "Featured Image"
 msgstr ""
 
-#: functions.php:111
+#: functions.php:82
 msgctxt "event"
 msgid "Set featured image"
 msgstr ""
 
-#: functions.php:112
+#: functions.php:83
 msgctxt "event"
 msgid "Remove featured image"
 msgstr ""
 
-#: functions.php:113
+#: functions.php:84
 msgctxt "event"
 msgid "Use as featured image"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:85
 msgid "Filter Events list"
 msgstr ""
 
-#: functions.php:115
+#: functions.php:86
 msgid "Events list navigation"
 msgstr ""
 
-#: functions.php:116
+#: functions.php:87
 msgid "Events list"
 msgstr ""
 
-#: functions.php:117
+#: functions.php:88
 msgid "New Event"
 msgstr ""
 
-#: functions.php:118
+#: functions.php:89
 msgid "Add New"
 msgstr ""
 
-#: functions.php:119
+#: functions.php:90
 msgid "Add New Event"
 msgstr ""
 
-#: functions.php:120
+#: functions.php:91
 msgid "Edit Event"
 msgstr ""
 
-#: functions.php:121
+#: functions.php:92
 msgid "View Event"
 msgstr ""
 
-#: functions.php:122
+#: functions.php:93
 msgid "View Events"
 msgstr ""
 
-#: functions.php:123
+#: functions.php:94
 msgid "Search Events"
 msgstr ""
 
-#: functions.php:124
+#: functions.php:95
 msgid "No Events found"
 msgstr ""
 
-#: functions.php:125
+#: functions.php:96
 msgid "No Events found in trash"
 msgstr ""
 
-#: functions.php:126
+#: functions.php:97
 msgid "Parent Event:"
 msgstr ""
 
 #. translators: %s: post permalink
-#: functions.php:162
+#: functions.php:133
 msgid "Event updated. <a target=\"_blank\" href=\"%s\">View Event</a>"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:134
 msgid "Custom field updated."
 msgstr ""
 
-#: functions.php:164
+#: functions.php:135
 msgid "Custom field deleted."
 msgstr ""
 
-#: functions.php:165
+#: functions.php:136
 msgid "Event updated."
 msgstr ""
 
 #. translators: %s: date and time of the revision
-#: functions.php:167
+#: functions.php:138
 msgid "Event restored to revision from %s"
 msgstr ""
 
 #. translators: %s: post permalink
-#: functions.php:169
+#: functions.php:140
 msgid "Event published. <a href=\"%s\">View Event</a>"
 msgstr ""
 
-#: functions.php:170
+#: functions.php:141
 msgid "Event saved."
 msgstr ""
 
 #. translators: %s: post permalink
-#: functions.php:172
+#: functions.php:143
 msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview Event</a>"
 msgstr ""
 
 #. translators: 1: Publish box date format, see https://secure.php.net/date 2: Post permalink
-#: functions.php:175
+#: functions.php:146
 msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Event</a>"
 msgstr ""
 
 #. translators: %s: post permalink
-#: functions.php:180
+#: functions.php:151
 msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview Event</a>"
 msgstr ""
