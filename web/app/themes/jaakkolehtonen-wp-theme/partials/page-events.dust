@@ -1,0 +1,38 @@
+{>"shared/header" /}
+
+{#PageEvents}
+    <main id="main">
+        <div class="event-tabs">
+            <ul class="event-tabs__list">
+                <li class="event-tabs__link" data-tab="event-tabs__content--upcoming"><span>Upcoming & Ongoing</span></li>
+                <li class="event-tabs__link" data-tab="event-tabs__content--all"><span>All</span></li>
+            </ul>
+            <div class="event-tabs__content event-tabs__content--upcoming" id="event-tabs__content--upcoming">
+                <div class="event-list">
+                    <ol class="event-list__list event-list__list--upcoming" id="event-list__list--upcoming">
+                        {#QueryUpcomingEvents}
+                            {>"shared/event-list"/}
+                        {/QueryUpcomingEvents}
+                    </ol>
+                    {@gt key=QueryUpcomingEvents.max_num_pages value=1}
+                        <a href="#" class="event-list__load-more event-list__load-more--upcoming" id="event-list__load-more--upcoming" data-max-num-pages="{QueryUpcomingEvents.max_num_pages}">Load events</a>
+                    {/gt}
+                </div>
+            </div>
+            <div class="event-tabs__content event-tabs__content--all" id="event-tabs__content--all">
+                <div class="event-list">
+                    <ol class="event-list__list event-list__list--all" id="event-list__list--all">
+                        {#QueryAllEvents}
+                            {>"shared/event-list"/}
+                        {/QueryAllEvents}
+                    </ol>
+                    {@gt key=QueryAllEvents.max_num_pages value=1}
+                        <a href="#" class="event-list__load-more event-list__load-more--all" id="event-list__load-more--all" data-max-num-pages="{QueryAllEvents.max_num_pages}">Load events</a>
+                    {/gt}
+                </div>
+            </div>
+        </div>
+    </main>
+{/PageEvents}
+
+{>"shared/footer" /}

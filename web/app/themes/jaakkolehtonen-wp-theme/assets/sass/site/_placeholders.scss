@@ -1,0 +1,21 @@
+%box {
+    background-color: $color__white;
+    border: 1px solid $color__border;
+    box-shadow: 0 6px 24px $color__gray;
+}
+
+%tab {
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 1em .5em;
+    color: lighten($color__text-main, 25%);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    @media (min-width: $breakpoint__small) {
+        padding: 1.5em 1em;   
+    }
+}

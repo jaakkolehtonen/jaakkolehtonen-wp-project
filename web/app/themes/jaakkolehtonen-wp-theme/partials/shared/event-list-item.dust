@@ -1,0 +1,9 @@
+<li class="event-list__item">
+    <a class="event-list__link" href="{permalink}" title="{post_title}">
+        <h2 class="event__title event-list__title">{post_title}</h2>
+        <div class="event__date event-list__date">
+            <span class="event__start-time event-list__start-time"><strong>Starts:</strong> {fields.start_time}</strong></span>
+            <span class="event__end-time event-list__end-time"><strong>Ends:</strong> {fields.end_time}</span>
+        </div>
+    </a>
+</li>

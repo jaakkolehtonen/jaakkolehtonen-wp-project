@@ -1,0 +1,3 @@
+<li class="post-list__item">
+    {post_title}
+</li>

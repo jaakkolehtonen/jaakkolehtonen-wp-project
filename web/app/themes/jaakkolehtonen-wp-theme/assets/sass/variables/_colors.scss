@@ -1,0 +1,15 @@
+$color__primary: #639;
+
+$color__white: #fff;
+$color__black: #000;
+
+$color__light-gray: darken($color__white, 10%);
+$color__gray: darken($color__white, 20%);
+$color__dark-gray: darken($color__white, 30%);
+
+$color__background-body: #fafafa;
+
+$color__link: $color__primary;
+$color__text-main: #3c3c3c;
+
+$color__border: $color__gray;

@@ -1,0 +1,46 @@
+.event-list {
+    &__list {
+        margin: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+    &__item {
+        border-top: 1px solid $color__border;
+
+        &:hover {
+            background: linear-gradient(darken($color__white, 10%), darken($color__white, 5%));
+        }
+
+        &:first-child {
+            border-top: 0;
+        }
+
+        &:last-child {
+            border-bottom-right-radius: 1.5em;
+            border-bottom-left-radius: 1.5em;
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-size: 1.5em;
+    }
+
+    &__date {
+        margin-bottom: 0;
+    }
+
+    &__load-more {
+        @extend %tab;
+        
+        display: block;
+        color: $color__white;
+        background: linear-gradient(lighten($color__primary, 5%), darken($color__primary, 5%));
+    }
+}

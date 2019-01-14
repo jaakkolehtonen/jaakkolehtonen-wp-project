@@ -1,0 +1,3 @@
+{#posts}
+    {>"shared/event-list-item"/}
+{/posts}

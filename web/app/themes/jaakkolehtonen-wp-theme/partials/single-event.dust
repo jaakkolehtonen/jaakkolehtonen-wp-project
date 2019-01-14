@@ -1,0 +1,20 @@
+{>"shared/header" /}
+
+{#SingleEvent}
+    <main id="main">
+        {#Content}
+        <div class="event">
+            <h1 class="event__title">{post_title}</h1>
+            <div class="event__date">
+                <span class="event__start-time"><strong>Starts:</strong> {fields.start_time}</strong></span>
+                <span class="event__end-time"><strong>Ends:</strong> {fields.end_time}</span>
+            </div>
+            <div class="event__content">
+                {@content /}
+            </div>
+        </div>
+        {/Content}
+    </main>
+{/SingleEvent}
+
+{>"shared/footer" /}

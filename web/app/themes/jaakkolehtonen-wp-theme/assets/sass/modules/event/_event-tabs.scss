@@ -1,0 +1,49 @@
+.event-tabs {
+    @extend %box;
+
+    &__list {
+        position: sticky;
+        top: 0;
+        display: flex;
+        margin: 0;
+        padding-left: 0;
+        list-style-type: none;
+
+        .admin-bar & {
+
+            @media (min-width: 600px) {
+                top: 46px;
+            }
+
+            @media (min-width: 783px) {
+                top: 32px;
+            }
+        }
+    }
+
+    &__link {
+        @extend %tab;
+        
+        color: lighten($color__text-main, 25%);
+        background: linear-gradient(darken($color__white, 5%), darken($color__white, 10%));
+        border-bottom: 1px solid $color__border;
+
+        &--active {
+            color: $color__white;
+            background: linear-gradient(lighten($color__link, 5%), darken($color__link, 5%));
+            border-bottom: 0;
+        }
+
+        span {
+            flex: 1;
+        }
+    }
+
+    &__content {
+        display: none;
+
+        &--active {
+            display: inherit;
+        }
+    }
+}

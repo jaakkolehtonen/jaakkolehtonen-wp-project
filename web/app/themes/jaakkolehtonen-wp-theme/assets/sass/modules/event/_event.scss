@@ -1,0 +1,38 @@
+.event {
+    @extend %box;
+
+    padding: 1.5em;
+
+    *:last-child {
+        margin-bottom: 0;
+    }
+
+    &__title {
+        color: $color__text-main;
+    }
+
+    &__date {
+        margin-bottom: 1em;
+        color: $color__text-main;
+    }
+
+    &__start-time,
+    &__end-time {
+        font-size: .875em;
+        display: block;
+
+        @media (min-width: $breakpoint__small) {
+            display: inline;    
+        }
+    }
+
+
+    &__start-time {
+        padding-right: .5em;
+    }
+
+    // &__end-time {}
+}
+
+@import "event-tabs";
+@import "event-list";

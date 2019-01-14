@@ -1,0 +1,23 @@
+{
+  "name": "jaakkolehtonen-wp-theme",
+  "description": "A theme for DustPress.",
+  "type": "wordpress-theme",
+  "authors": [
+    {
+        "name": "Jaakko Lehtonen",
+        "email": "jaakkolhlehtonen@gmail.com",
+        "homepage": "https://github.com/jaakkolehtonen/",
+        "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "wordpress", "dustjs", "dustpress", "theme"
+  ],
+  "license": "GPL-3.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "^1.4",
+    "devgeniem/dustpress": "^1.9"
+  }
+}

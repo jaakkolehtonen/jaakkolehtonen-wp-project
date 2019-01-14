@@ -1,0 +1,22 @@
+{>"shared/header" /}
+
+{#Index}
+    <main id="main">
+    {#Query}
+    <div class="post-list">
+        <h2>Recent posts</h2>
+        <ul class="post-list__list">
+            {#posts}
+                <li class="post-list__item"><a href="{permalink}">{post_title}</a></li>
+            {/posts}
+        </ul>
+        <div class="post-list__info">
+            <p>There a total of <span class="post-list__count-text">{found_posts}</span> posts.</p>
+            <p><a href="/archive">See all posts</a></p>
+        </div>
+    </div>
+    {/Query}
+    </main>
+{/Index}
+
+{>"shared/footer" /}

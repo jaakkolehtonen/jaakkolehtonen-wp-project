@@ -1,0 +1,9 @@
+main {
+    max-width: $size__main;
+    margin: 0 auto;
+    padding: 1.5em;
+
+    @media (min-width: $breakpoint__small) {
+        padding: 3em;
+    }
+}

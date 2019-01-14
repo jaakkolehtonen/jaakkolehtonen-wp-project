@@ -1,0 +1,16 @@
+{>"shared/header" /}
+
+{#SingleEvent}
+    <main id="main">
+        {#Content}
+        <div class="post">
+            <h1 class="post__title">{post_title}</h1>
+            <div class="post__content">
+                {@content /}
+            </div>
+        </div>
+        {/Content}
+    </main>
+{/SingleEvent}
+
+{>"shared/footer" /}

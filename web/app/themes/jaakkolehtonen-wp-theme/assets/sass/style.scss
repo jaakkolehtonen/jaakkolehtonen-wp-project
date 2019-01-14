@@ -1,0 +1,38 @@
+/*
+Theme Name: Jaakko Lehtonen WP Theme
+Theme URI: https://github.com/jaakkolehtonen/jaakkolehtonen-wp-theme/
+Author: Jaakko Lehtonen
+Author URI: https://github.com/jaakkolehtonen/
+Description: A theme for DustPress.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: jaakkolehtonen-wp-theme
+Tags: custom
+*/
+@import "variables/variables";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Event
+--------------------------------------------------------------*/
+@import "modules/event/event";
