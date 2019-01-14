@@ -37,10 +37,6 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/solarissmoke/disable-comments-mu"
-    },
-    {
-      "type": "git",
       "url": "https://github.com/mcguffin/acf-quick-edit-fields"
     }
   ],

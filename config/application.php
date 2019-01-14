@@ -55,19 +55,9 @@ if ( $env_db ) {
 }
 
 /**
- * SendGrid
- */
-$env_sg_username = getenv( 'SENDGRID_USERNAME' );
-$env_sg_password = getenv( 'SENDGRID_PASSWORD' );
-if ( $env_sg_username && $env_sg_password ) {
-    Config::define( 'SENDGRID_USERNAME', $env_sg_username );
-    Config::define( 'SENDGRID_PASSWORD', $env_sg_password );
-}
-
-/**
  * URLs
  */
-if (array_key_exists( 'HTTP_X_FORWARDED_PROTO', $_SERVER ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' ) $_SERVER['HTTPS'] = 'on';
+if ( array_key_exists( 'HTTP_X_FORWARDED_PROTO', $_SERVER ) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' ) $_SERVER['HTTPS'] = 'on';
 $_server_http_host_scheme = array_key_exists( 'HTTPS', $_SERVER ) && $_SERVER['HTTPS'] == 'on' ? 'https' : 'http';
 $_server_http_host_name = array_key_exists( 'HTTP_HOST', $_SERVER ) ? $_SERVER['HTTP_HOST'] : 'localhost';
 $_server_http_url = "$_server_http_host_scheme://$_server_http_host_name";

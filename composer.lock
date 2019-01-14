@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "635043cbd11a93a47f9787262c54fb3d",
+    "content-hash": "10ea899c3bdb7bf0a5d80e091e2c24c3",
     "packages": [
         {
             "name": "composer/installers",
@@ -638,6 +638,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/swift-mailer",
+            "version": "5.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/swift-mailer/",
+                "reference": "tags/5.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/swift-mailer.5.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/swift-mailer/"
         }
     ],
     "packages-dev": [

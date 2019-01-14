@@ -64,35 +64,6 @@ function scripts_and_styles() {
 \add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\scripts_and_styles' );
 
 /**
- * Remove menu pages.
- */
-function remove_menu_pages() {
-	\remove_menu_page( 'edit.php' );
-}
-
-\add_action( 'admin_menu', __NAMESPACE__ . '\\remove_menu_pages' );
-
-/**
- * Remove admin bar links.
- */
-function remove_admin_bar_links() {
-    global $wp_admin_bar;
-    $wp_admin_bar->remove_menu( 'new-post' );
-}
-
-\add_action( 'wp_before_admin_bar_render', __NAMESPACE__ . '\\remove_admin_bar_links' );
-
-/**
- * Disable new post.
- */
-function disable_new_post() {
-    if ( \get_current_screen()->post_type === 'post' ) {
-        wp_die( "You ain't allowed to do that!" );
-    }
-}
-\add_action( 'load-post-new.php', __NAMESPACE__ . '\\disable_new_post' );
-
-/**
  * Registers the `event` post type.
  */
 function event_init() {
